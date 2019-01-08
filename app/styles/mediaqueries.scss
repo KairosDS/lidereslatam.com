@@ -1,0 +1,386 @@
+  @import './variables';
+  @media screen and (max-width: 767px) {
+    .ux-mobile-nodisplay {
+      display: none;
+    }
+    .mdl-layout__header {
+      .mdl-layout__drawer-button {
+        display: block;
+      }
+      .mdl-layout__header-row {
+        .ux-tickets-logo {
+          display: block;
+        }
+        .mdl-navigation {
+          height: 56px;
+          #ux_rumble_home {
+            text-align: center;
+            width: 100%;
+            margin-left: 0;
+          }
+          .mdl-navigation__link {
+            display: none;
+          }
+        }
+      }
+    }
+    .ux-container {
+      .ux-header-image {
+        display: none;
+      }
+      .ux-uxrumble-icon {
+        position: relative;
+      }
+      .ux-layout-background-image {
+        background: url(../images/Hero_UXRumble.jpg) 61%/cover no-repeat;
+        position: fixed;
+        background-size: 800px;
+        height: 450px;
+      }
+      .ux-container-main {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 142px;
+        height: 210px;
+        padding-bottom: 50px;
+        .ux-claim-title {
+          font-size: 30px;
+          line-height: 40px;
+          text-align: center;
+        }
+        .ux-timer {
+          width: 100%;
+          div {
+            width: 52px;
+            height: 52px;
+            min-width: 52px;
+            margin: 10px 6px;
+            padding-top: 7px;
+            font-size: 16px;
+            span.text {
+              font-family: 'Open Sans', sans-serif;
+              font-size: 12px;
+              line-height: 0px;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .ux-main-top-panel {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        flex-flow: column wrap;
+        align-items: flex-start;
+        .ux-main-top-item {
+          justify-content: flex-start;
+          width: 100%;
+          border-bottom: 1px solid #eee;
+        }
+      }
+      .ux-event-content {
+        .ux-top-title {
+          font-size: 24px;
+          line-height: 27px;
+          width: 62%;
+          margin: 0 auto;
+        }
+        .ux-section-info {
+          width: 94%;
+        }
+        .ux-roadmap-picture {
+          display: none;
+        }
+        .ux-roadmap-picture-mobile {
+          display: block;
+          width: 75%;
+          margin: 35px auto;
+        }
+        .ux-md-title {
+          font-size: 20px;
+          line-height: 26px;
+          width: 83%;
+          margin: 0 auto;
+        }
+        .ux-width-60 {
+          margin: 20px auto;
+        }
+        .ux-content-panel {
+          height: 100%;
+          .ux-left-side-image {
+            display: none;
+          }
+          .ux-right-side-image {
+            display: none;
+          }
+          .ux-title-step-mobile {
+            display: block;
+            color: $accent;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            text-transform: uppercase;
+            width: 100%;
+            font-weight: 600;
+            margin: 0;
+          }
+          .ux-right-side {
+            width: 100%;
+            .ux-step-box {
+              margin-bottom: 30px;
+            }
+          }
+          .ux-padding-5 {
+            padding-left: 11% !important;
+          }
+        }
+      }
+      section#mentores {
+        height: 678px;
+        .ux-mentors-content {
+          h3 {
+            font-size: 24px;
+            line-height: 38px;
+            width: 60%;
+            text-align: center;
+            margin-top: 50px;
+          }
+          .ux-mentors-display {
+            margin-top: 15px;
+            width: 90%;
+            .ux-mentor-item {
+              .ux-mentor-item__top {
+                img {
+                  width: 120px;
+                  height: 120px;
+                }
+              }
+            }
+          }
+        }
+      }
+      section#agenda {
+        .ux-top-title {
+          font-size: 24px;
+          line-height: 27px;
+          margin: 0 auto;
+        }
+        .mdl-tabs {
+          .mdl-tabs__tab-bar {
+            width: 96%;
+          }
+        }
+        .mdl-data-table {
+          width: 100%;
+        }
+      }
+      .ux-organization-section {
+        height: 100%;
+        .ux-top-title {
+          font-size: 20px;
+          line-height: 24px;
+        }
+        img {
+          max-width: 145px;
+          width: 100%;
+        }
+      }
+      .ux-sponsors-section {
+        height: 100%;
+        .ux-top-title {
+          font-size: 20px;
+          line-height: 24px;
+        }
+        .ux-org-pictures {
+          a {
+            margin: 15px 0;
+          }
+          .ux-ing-logo {
+            padding: 0;
+          }
+        }
+      }
+      section#localizacion {
+        .ux-coworking-box {
+          display: none;
+        }
+        #map {
+          height: 440px;
+        }
+      }
+      #tickets {
+        height: 640px;
+        .ux-top-title {
+          font-size: 24px;
+          line-height: 27px;
+          width: 62%;
+          margin: 0 auto;
+        }
+        .ux-tickets-content {
+          .ux-tickets-box {
+            flex-flow: column nowrap;
+            align-items: center;
+            padding: 0;
+            text-align: center;
+            justify-content: flex-end;
+            height: 310px;
+            width: 90%;
+            .ux-tickets-info {
+              align-items: flex-start;
+              display: flex;
+              flex-flow: column;
+              .ux-tickets-price {
+                flex-flow: column;
+                div {
+                  padding: 0;
+                  padding-bottom: 20px;
+                  span {
+                    text-align: left;
+                  }
+                }
+              }
+              .ux-tickets-text {
+                text-align: left;
+              }
+            }
+            .ux-tickets-button {
+              height: 65px;
+              width: 100%;
+              padding: 0;
+              border-bottom-left-radius: 4px;
+              border-bottom-right-radius: 4px;
+              button {
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+    }
+    section#spotify {
+      p {
+        font-size: 20px;
+        line-height: 24px
+      }
+    }
+    .ux-mega-footer {
+      height: 100%;
+      #subscription {
+        form {
+          height: 190px;
+          padding: 10px 0;
+          #ux-embed-signup {
+            height: 100%;
+            padding: 20px 20px;
+            flex-flow: column nowrap;
+            justify-content: center;
+            label {
+              padding: 10px 0;
+              width: 85%;
+              ;
+              font-size: 14px;
+            }
+            .ux-email-container {
+              width: 85%;
+              .ux-email-conditions {
+                top: 54px;
+              }
+            }
+          }
+        }
+        .ux-conditions-subscription {
+          padding: 0 20px;
+        }
+        .ux-conditions-animation {
+          height: 340px;
+        }
+      }
+      .ux-middle-footer-section {
+        flex-flow: column nowrap;
+        svg.ux-uxrumble-footer-mobile {
+          width: 57px;
+        }
+        .ux-flex-order-1 {
+          order: 1;
+        }
+        .ux-flex-order-2 {
+          order: 2;
+        }
+        .ux-flex-order-3 {
+          order: 3;
+        }
+        .ux-flex-order-4 {
+          order: 4;
+        }
+        .ux-right-side-footer {
+          flex-flow: column nowrap;
+          padding-left: 10%;
+          .ux-links-footer {
+            margin: 0;
+            ul {
+              .ux-link-transform {
+                text-align: left;
+              }
+            }
+            .ux-twitter-container {
+              display: flex;
+              flex-flow: row;
+              .ux-twitter-icon {
+                width: 100px;
+                display: block;
+                margin-top: 25px;
+              }
+            }
+          }
+        }
+      }
+      .ux-bottom-footer-section {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 33px;
+        padding-bottom: 25px;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+    }
+    .ux-mentors-background-image {
+      height: 360px;
+      h2 {
+        font-size: 28px;
+        line-height: 40px;
+        text-align: center;
+        width: 80%;
+      }
+      svg {
+        width: 80px;
+      }
+    }
+    .ux-mentor-container {
+      flex-flow: column nowrap;
+      align-items: center;
+      padding: 80px 0;
+      .ux-mentor-info {
+        margin: 0 25px;
+        h2 {
+          font-size: 24px;
+          line-height: 27px;
+        }
+        h4 {
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .mdl-layout__header-row {
+      .mdl-navigation {
+        .mdl-navigation__link {
+          &:hover {
+            line-height: 56px !important;
+          }
+        }
+      }
+    }
+  }
