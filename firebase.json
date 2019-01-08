@@ -1,0 +1,33 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "dist",
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }],
+    "headers": [ {
+      "source": "**/*.@(jpg|jpeg|gif|png)",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=3600, public"
+      }]
+    }, 
+    {
+      "source": "https://www.google-analytics.com/analytics.js",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=7200, public"
+      }]
+    },
+    {
+      "source": "https://maps.googleapis.com/…dRxqJyOCB1w2_cbUAHS6Ub8&callback=initMap",
+      "headers": [{
+        "key": "Cache-Control",
+        "value": "max-age=1800, public"
+      }]
+    }]
+  }
+}
