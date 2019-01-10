@@ -1,0 +1,87 @@
+    .ux-claim {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+    }
+    .ux-mentors-background-image {
+      background: url('../images/group_ux.png') center / cover;
+      width: 100%;
+      height: 600px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      h2 {
+        font-size: 45px;
+        line-height: 55px;
+        color: #fff;
+        margin: 0px;
+        padding-top: 50px;
+        font-weight: 600;
+        width: 550px;
+        text-align: center;
+        }
+    }
+
+    .ux-mentor-container {
+      background-color: #fff;
+      padding: 100px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      .ux-mentor-picture {
+        max-width: 210px;
+        img{
+          border-radius: 50%;
+          width: 210px;
+          margin-bottom: 40px;
+        }
+        .ux-mentor-links {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-around;
+          svg:hover path {
+            fill: #F58238;
+          }
+        }
+      }
+      .ux-mentor-info {
+        margin: 0 50px;
+        
+        h2 {
+          font-size: 38px;
+          line-height: 45px;
+          font-weight: 600;
+          font-family: Montserrat;
+        }
+        h4 {
+          font-size: 24px;
+          line-height: 32px;
+          font-weight: 600;
+          font-family: Montserrat;
+        }
+        .ux-mentor-text {                
+          color: #9C9EA6;
+          max-width: 729px;
+          p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+            line-height: 25px;
+            font-weight: 200;
+          }
+          .ux-mentor-resume { 
+            font-style: italic;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+   
+
+  
+ 
+
+
+
+ 
