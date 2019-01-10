@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="781px" height="140px" viewBox="0 0 781 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(-296.000000, -305.000000)">
+            <g id="Group-2" transform="translate(296.000000, 304.000000)">
+                <g id="Group" transform="translate(85.500000, 53.600000) scale(1, -1) translate(-85.500000, -53.600000) translate(0.000000, 0.600000)">
+                    <path d="M81.6,96 C90.3927273,96 97.2,89.0088496 97.2,80.060177 L97.2,17.139823 C97.2,8.47079646 90.3927273,1.2 81.6,1.2 C72.8072727,1.2 66,8.19115044 66,17.139823 L66,80.060177 C66,89.0088496 72.8072727,96 81.6,96 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M64.8,80.060177 C64.8,88.7292035 71.6421053,96 80.4,96 C88.8842105,96 96,89.0088496 96,80.060177 L96,17.139823 C96,8.47079646 89.1578947,1.2 80.4,1.2" id="Path" fill="#944804"></path>
+                    <path d="M91.4086957,92.6086957 C97.5304348,86.4869565 97.5304348,76.4695652 91.4086957,70.0695652 L26.8521739,5.79130435 C20.7304348,-0.330434783 10.7130435,-0.330434783 4.59130435,5.79130435 C-1.53043478,11.9130435 -1.53043478,21.9304348 4.59130435,28.3304348 L68.8695652,92.6086957 C75.2695652,98.7304348 85.2869565,98.7304348 91.4086957,92.6086957 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M91.4191781,92.4 C97.5269406,86.2922374 97.5269406,76.2977169 91.4191781,69.9123288 L27.0100457,5.78082192 C20.9022831,-0.326940639 10.9077626,-0.326940639 4.8,5.78082192" id="Path" fill="#FF7900"></path>
+                    <path d="M170.4,105.6 L120.174373,95.8351387 L128.921532,87.1862616 L68.2557464,27.2021136 C62.0480845,21.0642008 62.0480845,11.0203435 68.2557464,4.60343461 C74.4634082,-1.5344782 84.6214003,-1.5344782 91.1112285,4.60343461 L151.777015,64.5875826 L160.524174,55.9387054 L170.4,105.6 Z" id="Path" fill="#FFFFFF"></path>
+                    <path d="M68.4,4.60343461 C74.598895,-1.5344782 84.7425414,-1.5344782 91.2232044,4.60343461 L151.803315,64.5875826 L160.538122,55.9387054 L170.4,105.6" id="Path" fill="#FF7900"></path>
+                </g>
+                <text id="Foro-de-Líderes-de" font-family="NexaLight, Nexa Light" font-size="36" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="174" y="59">Foro de Líderes de</tspan>
+                </text>
+                <text id="Transformación-Empre" font-family="NexaBold, Nexa Bold" font-size="48" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="134.4" y="105.8">Transformación Empresarial</tspan>
+                </text>
+                <text id="LATAM" font-family="NexaLight, Nexa Light" font-size="36" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="662.4" y="140.6">LATAM</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -7470,15 +7470,12 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .5;
-    background: #08c299;
-    background: -moz-linear-gradient(45deg, #08c299 0%, #090089 100%);
-    background: -webkit-gradient(left bottom, right top, color-stop(0%, #08c299), color-stop(100%, #090089));
-    background: -webkit-linear-gradient(45deg, #08c299 0%, #090089 100%);
-    background: -o-linear-gradient(45deg, #08c299 0%, #090089 100%);
-    background: -ms-linear-gradient(45deg, #08c299 0%, #090089 100%);
-    background: linear-gradient(45deg, #08c299 0%, #090089 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#08c299', endColorstr='#090089', GradientType=1 ); }
+    opacity: .7;
+    background: #215669; /* Old browsers */
+background: -moz-linear-gradient(top, #215669 0%, #143642 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #215669 0%,#143642 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #215669 0%,#143642 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#215669', endColorstr='#143642',GradientType=0 ); /* IE6-9 */ }
 
 .slider-text {
   color: #fff; }
@@ -7530,58 +7527,58 @@ h1, h2, h3, h4, h5,
       background: #fff !important;
       color: #000; }
 
-.ftco-bible-study {
+.que-es {
   margin-top: -150px; }
   @media (max-width: 767.98px) {
-    .ftco-bible-study {
+    .que-es {
       margin-top: 0; } }
-  .ftco-bible-study .wrap {
-    background: #272e4f; }
-  .ftco-bible-study .container {
+  .que-es .wrap {
+    background: #143642; }
+  .que-es .container {
     z-index: 2;
     padding: 30px; }
     @media (max-width: 767.98px) {
-      .ftco-bible-study .container {
+      .que-es .container {
         padding: 30px 20px; } }
-  .ftco-bible-study .one-forth {
+  .que-es .one-forth {
     width: 35%; }
     @media (min-width: 768px) {
-      .ftco-bible-study .one-forth {
+      .que-es .one-forth {
         border-right: 1px solid rgba(255, 255, 255, 0.1);
         padding-right: 35px; } }
     @media (max-width: 767.98px) {
-      .ftco-bible-study .one-forth {
+      .que-es .one-forth {
         width: 100%; } }
-  .ftco-bible-study .one-half {
+  .que-es .one-half {
     width: 65%; }
     @media (max-width: 767.98px) {
-      .ftco-bible-study .one-half {
+      .que-es .one-half {
         width: 100%;
         display: block; } }
-    .ftco-bible-study .one-half .countdown-wrap {
+    .que-es .one-half .countdown-wrap {
       width: calc(100% - 145px); }
       @media (max-width: 767.98px) {
-        .ftco-bible-study .one-half .countdown-wrap {
+        .que-es .one-half .countdown-wrap {
           width: 100%; } }
-    .ftco-bible-study .one-half .button {
+    .que-es .one-half .button {
       width: 145px; }
-  .ftco-bible-study h3 {
+  .que-es h3 {
     color: #fff; }
-  .ftco-bible-study p {
+  .que-es p {
     color: rgba(255, 255, 255, 0.8); }
-  .ftco-bible-study .countdown {
+  .que-es .countdown {
     padding: 0 30px; }
     @media (max-width: 767.98px) {
-      .ftco-bible-study .countdown {
+      .que-es .countdown {
         padding: 0;
         margin-bottom: 30px; } }
-    .ftco-bible-study .countdown span {
+    .que-es .countdown span {
       display: inline-block;
       text-align: center;
       width: 25%;
       font-size: 40px;
       font-weight: 400; }
-    .ftco-bible-study .countdown small {
+    .que-es .countdown small {
       display: block;
       font-size: 14px;
       font-weight: 300;
