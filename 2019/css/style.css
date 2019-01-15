@@ -32,7 +32,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   font-family: 'Montserrat', sans-serif;
-  --font-family-sans-serif: "Work Sans", "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: "Work Sans", ”nexaLogo”, "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *,
@@ -9527,3 +9527,8 @@ body{ background-color: #f0eded;}
 	text-decoration:none;
 }
 
+@font-face {
+  font-family: ”nexaLogo”;
+  src: url(Nexa Bold.otf) format(“opentype”);
+  src: url(Nexa Light.otf) format(“opentype”);
+  }
