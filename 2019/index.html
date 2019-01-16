@@ -833,14 +833,14 @@
         </div>
       </div>
     </footer>
-    
-  
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQuv3Ih29FUzRYkkfUfNxocKY9QlbCm8M&callback=initMap">
-  </script>
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+    <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+    <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg>
+  </div>
+
+  <!-- scripts -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86927400-1"></script>
   <script>
      window.dataLayer = window.dataLayer || [];
@@ -867,26 +867,26 @@
   <script src="js/main.js"></script>
 
   <script>
-		
-      var map;
-  	 function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-		  center: {lat: 43.5293, lng: -5.6773},
-          zoom: 13,
-        });
-        let iconMark = {
-          path: 'images/icon_map.svg',
-          scale: 1
-        };
-        let marker = new google.maps.Marker({
-          position: {lat: 43.542194, lng: -5.676875},
-          map: map,
-          //icon: iconMark
-        });
-      }
-
-      
-	</script>
+    function initMap() {
+      let map;
+      map = new google.maps.Map(document.getElementById('map'), {
+		    center: {lat: 43.5293, lng: -5.6773},
+        zoom: 13,
+      });
+      // let iconMark = {
+      //   path: 'images/icon_map.svg',
+      //   scale: 1
+      // };
+      let marker = new google.maps.Marker({
+        position: {lat: 43.542194, lng: -5.676875},
+        map: map,
+        //icon: iconMark
+      });
+    }
+  </script>
+   <script async defer
+   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQuv3Ih29FUzRYkkfUfNxocKY9QlbCm8M&callback=initMap">
+  </script>
     
   </body>
 </html>
