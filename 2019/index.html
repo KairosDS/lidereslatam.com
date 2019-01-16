@@ -834,24 +834,23 @@
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>-->
   <script src="js/main.js"></script>
 
   <script>
     function initMap() {
       let map;
       map = new google.maps.Map(document.getElementById('map'), {
-		    center: {lat: 43.5293, lng: -5.6773},
+		    center: {lat: -12.0914281, lng: -77.0268798},
         zoom: 13,
       });
       let iconMark = {
 		    url: "images/icon_map.png",
       };
-      let marker = new google.maps.Marker({
-        position: {lat: 43.542194, lng: -5.676875},
-        map: map,
-        icon: iconMark
-      });
+      // let marker = new google.maps.Marker({
+      //   position: {lat: 43.542194, lng: -5.676875},
+      //   map: map,
+      //   icon: iconMark
+      // });
     }
   </script>
    <script async defer
