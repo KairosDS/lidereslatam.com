@@ -3320,6 +3320,14 @@ input[type="button"].btn-block {
     position: static;
     float: none; }
 
+.nav-item {
+  align-self: center;
+}
+
+.nav-item p{
+  margin-bottom: 0;
+}
+
 .navbar-text {
   display: inline-block;
   padding-top: 0.5rem;
