@@ -538,14 +538,14 @@
 
     <section class="ftco-section testimony-section schedule">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center">
           <div class="col-md-12 text-center heading-section ftco-animate">
             <!-- <span class="subheading">Read, Get Inspired, and Share Your Story</span> -->
             <h2 class="mb-4">Agenda</h2>
             <div class="ppb_session_filterable one withsmallpadding ">
               <div class="standard_wrapper">
-                <div id="15475552861269799054" style="position: relative; height: 1193px;">
-                  <ul class="scheduleday_wrapper themeborder one_half" style="position: absolute; left: 0px; top: 0px;">
+                <div class="content">
+                  <ul class="scheduleday_wrapper themeborder one_half">
                     <li class="scheduleday_title" style="background:;">
                       <div class="scheduleday_title_icon">
                         <span class="ti-calendar" style="color:;"></span>
@@ -668,7 +668,7 @@
                       </div>
                     </li>
                   </ul>
-                  <ul class="scheduleday_wrapper themeborder one_half last" style="position: absolute; left: 484px; top: 0px;">
+                  <ul class="scheduleday_wrapper themeborder one_half last">
                     <li class="scheduleday_title" style="background:;">
                       <div class="scheduleday_title_icon">
                         <span class="ti-calendar" style="color:;">
@@ -736,7 +736,7 @@
                       </div>
                     </li>
                   </ul>
-                  <ul class="scheduleday_wrapper themeborder one_half " style="position: absolute; left: 432px; top: 607px;">
+                  <ul class="scheduleday_wrapper themeborder one_half">
                     <li class="scheduleday_title" style="background:;">
                       <div class="scheduleday_title_icon">
                         <span class="ti-calendar" style="color:;"></span>
@@ -839,7 +839,7 @@
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
   <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQuv3Ih29FUzRYkkfUfNxocKY9QlbCm8M&callback=initMap">
   </script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86927400-1"></script>
   <script>
@@ -860,8 +860,6 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.mb.YTPlayer.min.js"></script>
   <script src="js/scrollax.min.js"></script>
   <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>-->
@@ -876,10 +874,14 @@
 		  center: {lat: 43.5293, lng: -5.6773},
           zoom: 13,
         });
-        var marker = new google.maps.Marker({
+        let iconMark = {
+          path: 'images/icon_map.svg',
+          scale: 1
+        };
+        let marker = new google.maps.Marker({
           position: {lat: 43.542194, lng: -5.676875},
           map: map,
-	        title: 'Acuario de Gijón'
+          //icon: iconMark
         });
       }
 

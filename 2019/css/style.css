@@ -55,15 +55,25 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+@font-face {
+  font-family: "nexaLight";
+  src: url(../fonts/NexaLight.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "nexaBold";
+  src: url(../fonts/NexaBold.otf) format("opentype");
+}
+
 body {
   margin: 0;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "nexaLight";
   font-size: 1rem;
-  font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -304,28 +314,28 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: "nexaBold";
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
 
 h1, .h1 {
-  font-size: 2.5rem; }
-
-h2, .h2 {
   font-size: 2rem; }
 
-h3, .h3 {
+h2, .h2 {
   font-size: 1.75rem; }
 
-h4, .h4 {
+h3, .h3 {
   font-size: 1.5rem; }
 
-h5, .h5 {
+h4, .h4 {
   font-size: 1.25rem; }
 
-h6, .h6 {
+h5, .h5 {
   font-size: 1rem; }
+
+h6, .h6 {
+  font-size: 0.95rem; }
 
 .lead {
   font-size: 1.25rem;
@@ -7281,13 +7291,7 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-body {
-  font-family: "Work Sans", Arial, sans-serif;
-  background: #fff;
-  font-size: 16px;
-  line-height: 1.8;
-  font-weight: 300;
-  color: #4d4d4d; }
+
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -7307,7 +7311,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   color: #000;
-  font-weight: 400; }
+}
 
 .text-primary {
   color: #FF7900 !important; }
@@ -9554,18 +9558,11 @@ body{ background-color: #f0eded;}
 	text-decoration:none;
 }
 
-@font-face {
-  font-family: "nexaLogo";
-  src: url(../fonts/NexaBold.otf) format("opentype");
-  src: url(../fonts/NexaLight.otf) format("opentype");
-}
-
-
 /*Marks location*/
 .location{
   position: relative;
 }
-.standard_wrapper{
+.location .standard_wrapper{
   position: absolute;
   bottom: 90px;
   width: 100%;
@@ -9589,6 +9586,7 @@ body{ background-color: #f0eded;}
   text-transform: none;
   line-height: 1.2em;
   text-align: left;
+  color: #FF7900;
 }
 .page_tagline {
   margin-top: 10px;
@@ -9597,14 +9595,17 @@ body{ background-color: #f0eded;}
 }
 
 /* Agenda */
+.schedule {
+  padding: 4rem 0;
+}
 .schedule .standard_wrapper{
   position: initial;
-  max-width: 1425px;
+  max-width: 100%;
   width: 100%;
   box-sizing: border-box;
   margin: auto;
-  padding: 0 90px;
-  float:none;
+  padding: 0;
+  float: none;
 }
 .one {
   clear: both;
@@ -9613,7 +9614,6 @@ body{ background-color: #f0eded;}
   width: 100%;
   box-sizing: border-box;
 }
-
 .one_half {
   float: left;
   margin-right: 3.5%;
@@ -9634,16 +9634,36 @@ body{ background-color: #f0eded;}
 .one_half.last {
   float: right;
   margin-right: 0;
+  margin-bottom: 0;
   clear: right;
+  position: absolute;
+  left: 575px;
+  top: 0px;
 }
 .scheduleday_wrapper li.scheduleday_title {
   padding: 25px;
   background: #007bff;
   width: 100%;
   box-sizing: border-box;
+}
+.scheduleday_wrapper li.scheduleday_title h4,
+.scheduleday_wrapper li.scheduleday_title {
   color: #fff;
   margin-right: 10px;
   display: inline-block;
+}
+.scheduleday_wrapper li .scheduleday_title_icon {
+  font-size: 20px;
+  line-height: 26px;
+  float: left;
+  margin-right: 20px;
+}
+.scheduleday_wrapper li .scheduleday_title_content {
+  float: left;
+}
+.scheduleday_wrapper li .session_content{
+  float:right;
+  text-align: initial;
 }
 .scheduleday_wrapper li {
   border-top: 1px solid #e1e1e1;
@@ -9653,6 +9673,7 @@ body{ background-color: #f0eded;}
   cursor: pointer;
   padding: 25px;
   color: #222222;
+  font-size: 0.95rem
 }
 .session_speaker_icon {
   float: left;
@@ -9664,12 +9685,12 @@ body{ background-color: #f0eded;}
   font-size: 30px;
   line-height: 50px;
 }
-
 .ti-timer:before {
-  content: "\e66e";
+  content: url(../images/clock.svg)
 }
-
-
+.ti-calendar:before {
+  content: url(../images/calendar_white.svg)
+}
 .scheduleday_wrapper li .session_content.has_speaker_thumb {
   width: calc(100% - 70px);
   float: right;
@@ -9682,7 +9703,56 @@ body{ background-color: #f0eded;}
 .clear{
   clear: both;
 }
+.scheduleday_wrapper:first-child{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.scheduleday_wrapper:last-child{
+  position: absolute;
+  left: 575px;
+  top: 545px;
+}
+.standard_wrapper .content{
+  position: relative; 
+  height: 1100px;
+}
 
+@media (max-width:1024px){
+  .one_half.last,
+  .scheduleday_wrapper:last-child{
+    left: initial;
+    right: 0;
+  }
+}
+
+@media (max-width:768px){
+  .scheduleday_wrapper:last-child{
+    top:580px;
+  }
+}
+
+@media (max-width:360px){
+  .one_half.last, .scheduleday_wrapper:last-child {
+    float: initial;
+  }
+  .scheduleday_wrapper.one_half {
+    width: 100%;
+    position:initial;
+  }
+  .one_third_bg{
+    width: 100%;
+  }
+  .standard_wrapper .content{
+    height: auto;
+  }
+  .scheduleday_wrapper:first-child{
+    margin-top:0;
+  }
+  .location .standard_wrapper {
+    bottom: 30px;
+  }
+}
 
 
 
