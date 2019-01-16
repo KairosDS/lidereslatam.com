@@ -860,10 +860,8 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/jquery.mb.YTPlayer.min.js"></script>
   <script src="js/scrollax.min.js"></script>
   <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>-->
-  <!--<script src="js/google-map.js"></script>-->
   <script src="js/main.js"></script>
 
   <script>
@@ -873,14 +871,14 @@
 		    center: {lat: 43.5293, lng: -5.6773},
         zoom: 13,
       });
-      // let iconMark = {
-      //   path: 'images/icon_map.svg',
-      //   scale: 1
-      // };
+      let iconMark = {
+        path: 'images/icon_map.svg',
+        scale: 1
+      };
       let marker = new google.maps.Marker({
         position: {lat: 43.542194, lng: -5.676875},
         map: map,
-        //icon: iconMark
+        icon: iconMark
       });
     }
   </script>

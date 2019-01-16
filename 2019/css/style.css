@@ -9637,7 +9637,7 @@ body{ background-color: #f0eded;}
   margin-bottom: 0;
   clear: right;
   position: absolute;
-  left: 575px;
+  right: 0;
   top: 0px;
 }
 .scheduleday_wrapper li.scheduleday_title {
@@ -9710,7 +9710,7 @@ body{ background-color: #f0eded;}
 }
 .scheduleday_wrapper:last-child{
   position: absolute;
-  left: 575px;
+  right: 0;
   top: 545px;
 }
 .standard_wrapper .content{

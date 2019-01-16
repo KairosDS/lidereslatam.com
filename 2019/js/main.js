@@ -292,10 +292,10 @@
     fixedContentPos: false
   });
 
-  var bgVideo = function() {
-		$('.player').mb_YTPlayer();
-	};
-	bgVideo();
+	// var bgVideo = function() {
+	// 	$('.player').mb_YTPlayer();
+	// };
+	// bgVideo();
 
 	// Set the date we're counting down to
 	// var countDownDate = new Date("Dec 30, 2018 15:37:25").getTime();
