@@ -9649,7 +9649,7 @@ body{ background-color: #f0eded;}
   top: 0px;
 }
 .scheduleday_wrapper li.scheduleday_title {
-  padding: 25px;
+  padding: 25px 25px 25px 40px;
   background: #007bff;
   width: 100%;
   box-sizing: border-box;
@@ -9657,8 +9657,8 @@ body{ background-color: #f0eded;}
 .scheduleday_wrapper li.scheduleday_title h4,
 .scheduleday_wrapper li.scheduleday_title {
   color: #fff;
-  margin-right: 10px;
-  display: inline-block;
+  margin:0;
+  display: flex;
 }
 .scheduleday_wrapper li .scheduleday_title_icon {
   font-size: 20px;
@@ -9668,6 +9668,7 @@ body{ background-color: #f0eded;}
 }
 .scheduleday_wrapper li .scheduleday_title_content {
   float: left;
+  align-self: center;
 }
 .scheduleday_wrapper li .session_content{
   float:right;
@@ -9681,13 +9682,15 @@ body{ background-color: #f0eded;}
   cursor: pointer;
   padding: 25px;
   color: #222222;
-  font-size: 0.95rem
+  font-size: 0.95rem;
+  display: flex;
 }
 .session_speaker_icon {
   float: left;
   width: 50px;
   margin-right: 20px;
   text-align: center;
+  align-self: center;
 }
 .scheduleday_wrapper li .session_speaker_icon span {
   font-size: 30px;
@@ -9749,6 +9752,9 @@ body{ background-color: #f0eded;}
     margin-left: auto;
     margin-right: auto;
   }
+  .schedule .container {
+    max-width: 820px;
+  }
 }
 
 @media (max-width:768px){
@@ -9786,6 +9792,7 @@ body{ background-color: #f0eded;}
   }
   .infoSite .btn-primary {
     margin: 0 auto 20px auto;
+    display: table;
   }
 }
 
