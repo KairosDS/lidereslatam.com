@@ -9781,6 +9781,12 @@ body{ background-color: #f0eded;}
   .location .standard_wrapper {
     bottom: 30px;
   }
+  .infoSite{
+    margin-bottom: 2em;
+  }
+  .infoSite .btn-primary {
+    margin: 0 auto 20px auto;
+  }
 }
 
 @media (max-width:420px){
