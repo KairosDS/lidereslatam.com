@@ -8388,7 +8388,7 @@ textarea.form-control {
   @media (min-width: 768px) {
     .blog-entry {
       margin-bottom: 30px;
-      height: 575px;
+      height: 555px;
     }
   }  
   @media (max-width: 767.98px) {
@@ -9726,13 +9726,34 @@ body{ background-color: #f0eded;}
   }
 }
 
-@media (max-width:768px){
-  .scheduleday_wrapper:last-child{
-    top:580px;
+@media (max-width:992px) and (min-width: 768px){
+  .speakers .mb-3, .my-3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 185px;
+    margin-top: 5px;
+  } 
+  .scheduleday_wrapper:last-child {
+    top: 570px;
+  }
+  .logoHost{
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media (max-width:360px){
+@media (max-width:768px){
+  .logoHost{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .location .standard_wrapper {
+    bottom: 70px;
+  }
+  .location .one_third_bg {
+    width: 40%;
+  }
   .one_half.last, .scheduleday_wrapper:last-child {
     float: initial;
   }
@@ -9753,6 +9774,5 @@ body{ background-color: #f0eded;}
     bottom: 30px;
   }
 }
-
 
 
