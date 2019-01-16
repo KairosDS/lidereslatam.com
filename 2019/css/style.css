@@ -9775,4 +9775,10 @@ body{ background-color: #f0eded;}
   }
 }
 
+@media (max-width:420px){
+  .location .one_third_bg {
+    width: 100%;
+  }
+}
+
 
