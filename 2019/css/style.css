@@ -9603,9 +9603,6 @@ body{ background-color: #f0eded;}
 }
 
 /* Agenda */
-.schedule {
-  padding: 4rem 0;
-}
 .schedule .standard_wrapper{
   position: initial;
   max-width: 100%;
@@ -9725,8 +9722,16 @@ body{ background-color: #f0eded;}
   top: 545px;
 }
 .standard_wrapper .content{
-  position: relative; 
-  height: 1100px;
+  position: relative;
+  clear: both;
+  height: auto;
+}
+
+.scheduleday_wrapper.content-center{
+  margin: auto;
+  display: table;
+  position: initial;
+  float: initial;
 }
 
 @media (max-width:1024px){
