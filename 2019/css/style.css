@@ -9662,10 +9662,17 @@ body{ background-color: #f0eded;}
   line-height: 26px;
   float: left;
   margin-right: 20px;
+  flex: 0;
+  align-self: center;
 }
 .scheduleday_wrapper li .scheduleday_title_content {
   float: left;
   align-self: center;
+  flex:1;
+}
+.scheduleday_sala_content {
+  flex-direction: column;
+  display: flex;
 }
 .scheduleday_wrapper li .session_content{
   float:right;
@@ -9719,12 +9726,12 @@ body{ background-color: #f0eded;}
 .scheduleday_wrapper:last-child{
   position: absolute;
   right: 0;
-  top: 545px;
+  /*top: 545px;*/
 }
 .standard_wrapper .content{
   position: relative;
   clear: both;
-  height: auto;
+  height: 540px;
 }
 
 .scheduleday_wrapper.content-center{
@@ -9750,9 +9757,6 @@ body{ background-color: #f0eded;}
     width: 185px;
     margin-top: 5px;
   } 
-  .scheduleday_wrapper:last-child {
-    top: 570px;
-  }
   .logoHost{
     margin-left: auto;
     margin-right: auto;
