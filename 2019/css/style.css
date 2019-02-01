@@ -9603,9 +9603,6 @@ body{ background-color: #f0eded;}
 }
 
 /* Agenda */
-.schedule {
-  padding: 4rem 0;
-}
 .schedule .standard_wrapper{
   position: initial;
   max-width: 100%;
@@ -9665,10 +9662,17 @@ body{ background-color: #f0eded;}
   line-height: 26px;
   float: left;
   margin-right: 20px;
+  flex: 0;
+  align-self: center;
 }
 .scheduleday_wrapper li .scheduleday_title_content {
   float: left;
   align-self: center;
+  flex:1;
+}
+.scheduleday_sala_content {
+  flex-direction: column;
+  display: flex;
 }
 .scheduleday_wrapper li .session_content{
   float:right;
@@ -9725,8 +9729,16 @@ body{ background-color: #f0eded;}
   /*top: 545px;*/
 }
 .standard_wrapper .content{
-  position: relative; 
-  height: 1100px;
+  position: relative;
+  clear: both;
+  height: 540px;
+}
+
+.scheduleday_wrapper.content-center{
+  margin: auto;
+  display: table;
+  position: initial;
+  float: initial;
 }
 
 @media (max-width:1024px){
@@ -9745,15 +9757,17 @@ body{ background-color: #f0eded;}
     width: 185px;
     margin-top: 5px;
   } 
-  .scheduleday_wrapper:last-child {
-    top: 570px;
-  }
   .logoHost{
     margin-left: auto;
     margin-right: auto;
   }
   .schedule .container {
     max-width: 820px;
+  }
+  .navbar-collapse {
+    flex-basis: initial;
+    -webkit-box-flex: initial;
+    flex-grow: initial;
   }
 }
 
