@@ -6006,7 +6006,7 @@ button.bg-dark:focus {
     float: right !important; }
   .float-xl-none {
     float: none !important; } }
-
+.position{    font-size: 14px;}
 .position-static {
   position: static !important; }
 
@@ -8431,7 +8431,7 @@ textarea.form-control {
 
 @media (max-width: 1200px) {
   .blog-entry .text{
-    font-size: 14px;
+    font-size: 13px;
   }
   .blog-entry .text .heading {
     font-size: 18px;
