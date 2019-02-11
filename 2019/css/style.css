@@ -9646,7 +9646,7 @@ body{ background-color: #f0eded;}
   top: 0px;
 }
 .scheduleday_wrapper li.scheduleday_title {
-  padding: 25px 25px 25px 40px;
+  padding: 10px 40px 10px 40px;
   background: #007bff;
   width: 100%;
   box-sizing: border-box;
@@ -9714,6 +9714,7 @@ body{ background-color: #f0eded;}
   font-weight: 500;
   letter-spacing: 0;
   margin: 5px 0 5px 0;
+  display: inline-block;
 }
 .clear{
   clear: both;
@@ -9731,7 +9732,7 @@ body{ background-color: #f0eded;}
 .standard_wrapper .content{
   position: relative;
   clear: both;
-  height: 855px;
+  height: 1630px;
 }
 
 .scheduleday_wrapper.content-center{
