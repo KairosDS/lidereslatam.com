@@ -3305,7 +3305,7 @@ input[type="button"].btn-block {
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -3322,6 +3322,7 @@ input[type="button"].btn-block {
 
 .nav-item {
   align-self: center;
+	display: inline-block;
 }
 
 .nav-item p{
@@ -6222,7 +6223,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 1rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -7317,8 +7318,8 @@ a {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  line-height: 1.5;
-  color: #000;
+  line-height: 1;
+  color: #ff7900;
 }
 
 .text-primary {
@@ -7511,7 +7512,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#215669', end
     font-weight: 400; }
     @media (min-width: 768px) {
       .slider-text h1 {
-        margin-top: -50px; } }
+        margin-top: -150px; } }
     @media (max-width: 991.98px) {
       .slider-text h1 {
         font-size: 40px; } }
@@ -8102,8 +8103,10 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 4em 0;
-  position: relative; }
+  padding: 4em 3em;
+  position: relative; 
+  background: white;
+}
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
@@ -8258,7 +8261,7 @@ textarea.form-control {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 2px;
-  color: rgba(0, 0, 0, 0.2); }
+  color:#ffffff;}
 
 .heading-section h2 {
   font-size: 38px;
@@ -8691,7 +8694,7 @@ textarea.form-control {
   padding-left: 30px; }
 
 .contact-section {
-  margin-top: -250px; }
+ }
   .contact-section .container {
     z-index: 2;
     padding: 30px; }
