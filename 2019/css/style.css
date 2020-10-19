@@ -9700,6 +9700,15 @@ body{ background-color: #f0eded;}
   font-size: 0.95rem;
   display: flex;
 }
+
+.session_content_wrapper2 {
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #222222;
+  font-size: 0.95rem;
+  display: flex;
+}
+
 .session_speaker_icon {
   float: left;
   width: 50px;
@@ -9744,6 +9753,18 @@ body{ background-color: #f0eded;}
   position: relative;
   clear: both;
   height: 1790px;
+}
+
+.standard_wrapper .content2{
+  position: relative;
+  clear: both;
+  height: 2090px;
+}
+
+.standard_wrapper .content3{
+  position: relative;
+  clear: both;
+  height: 1450px;
 }
 
 .scheduleday_wrapper.content-center{
