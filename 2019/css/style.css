@@ -3216,6 +3216,15 @@ input[type="button"].btn-block {
   .nav-link.disabled {
     color: #6c757d; }
 
+.nav-link2 {
+  display: block;
+  padding: 0.5rem 1rem; 
+  color: #383d41; }
+  .nav-link:hover, .nav-link:focus {
+    text-decoration: none; }
+  .nav-link.disabled {
+    color: #6c757d; }
+
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
   .nav-tabs .nav-item {
@@ -9703,10 +9712,17 @@ body{ background-color: #f0eded;}
 
 .session_content_wrapper2 {
   background-color: #ffffff;
-  cursor: pointer;
   color: #222222;
   font-size: 0.95rem;
   display: flex;
+}
+
+.linea {
+  border-top: 1px solid #9E9E9E;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  background-color: #E5E5E5;
 }
 
 .session_speaker_icon {
@@ -9723,6 +9739,11 @@ body{ background-color: #f0eded;}
 .ti-timer:before {
   content: url(../images/clock.svg)
 }
+
+.flecha:before {
+  content: url(../images/vinietaFlecha.jpg)
+}
+
 .ti-calendar:before {
   content: url(../images/calendar_white.svg)
 }
